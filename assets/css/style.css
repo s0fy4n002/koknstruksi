@@ -2547,7 +2547,7 @@ span.fill {
 }
 
 .blog-button a:hover {
-    color: #ffff;
+    color: #000;
 }
 
 .blog-button a::before {
@@ -2557,7 +2557,7 @@ span.fill {
     height: 100%;
     top: 0;
     right: 0;
-    background: #1685b6;
+    background: transparent;
     border-radius: 10px;
     transition: .5s;
 }
@@ -4704,6 +4704,22 @@ span.flaticon-multiply i {
 .grow-section .stats-item h2 {
     font-size: 40px;
     font-weight: bold;
+}
+
+.text-ellipsis{
+    display: -webkit-box;
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.text-ellipsis-content{
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
 }
 
 
